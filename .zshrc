@@ -119,3 +119,7 @@ alias cr='code -r'
 # alias c='env NODE_OPTIONS= code'
 # alias cn='env NODE_OPTIONS= code -n'
 # alias cr='env NODE_OPTIONS= code -r'
+
+# iTerm2 shell integration
+# should be placed at the end of the file
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
